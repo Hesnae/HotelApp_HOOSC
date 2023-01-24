@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.mbds.nfchotel_hoosc"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.mbds.nfchotel_hoosc">
+
     <uses-permission android:name="android.permission.WRITE_SETTING" />
 
     <uses-feature android:name="android.hardware.nfc“ android:required=“true" />
@@ -9,11 +10,10 @@
     <uses-permission android:name="android.permission.NFC" />
 
     <uses-feature android:name="android.hardware.nfc.hce“ android:required=“true" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
-
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -23,7 +23,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
-
+        <activity
+            android:name=".WriteNfcTagActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -35,39 +37,41 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="org.mbds.nfchotel_hoosc.read.NFCReaderActivity"
+            android:name=".read.NFCReaderActivity"
             android:exported="true"
             android:label="@string/nfc_read_tag"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.nfc.action.TECH_DISCOVERED" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+
             <meta-data
                 android:name="android.nfc.action.TECH_DISCOVERED"
                 android:resource="@xml/nfc_tech_ndef" />
         </activity>
-
         <activity
-            android:name="org.mbds.nfchotel_hoosc.write.NFCWriterActivity"
+            android:name=".write.NFCWriterActivity"
             android:exported="true"
             android:label="@string/nfc_write_ndef"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.nfc.action.TECH_DISCOVERED" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+
             <meta-data
                 android:name="android.nfc.action.TECH_DISCOVERED"
                 android:resource="@xml/nfc_tech_ndef" />
         </activity>
-
     </application>
 
 </manifest>
