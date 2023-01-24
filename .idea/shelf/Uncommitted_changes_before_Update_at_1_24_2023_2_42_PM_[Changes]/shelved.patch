@@ -1,0 +1,55 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision a90d58360d232137e6a518879e7f9bc4bf09bd25)
++++ b/.idea/misc.xml	(date 1674567736837)
+@@ -1,5 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Users/chara/OneDrive/Documents/GitHub/HotelApp_HOOSC/app/src/main/res/layout/list_view.xml" value="0.18591691995947315" />
++      </map>
++    </option>
++  </component>
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file
+Index: app/src/main/res/layout/list_view.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/list_view.xml b/app/src/main/res/layout/list_view.xml
+new file mode 100644
+--- /dev/null	(date 1674567736790)
++++ b/app/src/main/res/layout/list_view.xml	(date 1674567736790)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical">
++
++    <ListView
++        android:id="@+id/list_rooms"
++        android:layout_width="match_parent"
++        android:layout_height="0dp"
++        android:layout_weight="1" />
++
++    <Button
++        android:id="@+id/btn_add_room"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Add Room"
++        android:onClick="onAddRoomClick" />
++
++</LinearLayout>
+\ No newline at end of file
