@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         binding.btnWriteTag.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, NFCWriterActivity.class));
+                startActivity(new Intent(MainActivity.this, WriteNfcTagActivity.class));
             }
         });
     }
