@@ -7,10 +7,9 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import org.mbds.nfchotel_hoosc.databinding.ActivityMainBinding;
 import org.mbds.nfchotel_hoosc.read.NFCReaderActivity;
 import org.mbds.nfchotel_hoosc.write.NFCWriterActivity;
-import org.mbds.nfctag.R;
-import org.mbds.nfctag.databinding.ActivityMainBinding;
 
 
 public class MainActivity extends AppCompatActivity {

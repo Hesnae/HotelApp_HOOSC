@@ -18,10 +18,10 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
+import org.mbds.nfchotel_hoosc.R;
 import org.mbds.nfchotel_hoosc.model.TagContent;
 import org.mbds.nfchotel_hoosc.model.TagType;
 import org.mbds.nfchotel_hoosc.write.NFCWriterActivity;
-import org.mbds.nfctag.R;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

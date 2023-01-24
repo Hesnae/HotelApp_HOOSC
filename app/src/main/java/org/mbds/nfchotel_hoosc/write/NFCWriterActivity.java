@@ -16,9 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 
-
+import org.mbds.nfchotel_hoosc.R;
 import org.mbds.nfchotel_hoosc.model.TagType;
-import org.mbds.nfctag.R;
 
 public class NFCWriterActivity extends AppCompatActivity {
 
