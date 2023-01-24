@@ -1,0 +1,50 @@
+Index: app/google-services.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/google-services.json b/app/google-services.json
+new file mode 100644
+--- /dev/null	(date 1674567397619)
++++ b/app/google-services.json	(date 1674567397619)
+@@ -0,0 +1,39 @@
++{
++  "project_info": {
++    "project_number": "484335769391",
++    "project_id": "hotelapp-3427d",
++    "storage_bucket": "hotelapp-3427d.appspot.com"
++  },
++  "client": [
++    {
++      "client_info": {
++        "mobilesdk_app_id": "1:484335769391:android:2b122659f43e7ca6c333da",
++        "android_client_info": {
++          "package_name": "org.mbds.nfchotel_hoosc"
++        }
++      },
++      "oauth_client": [
++        {
++          "client_id": "484335769391-d49k3jqeg5b0gtluf4dgoc1mdj05hh19.apps.googleusercontent.com",
++          "client_type": 3
++        }
++      ],
++      "api_key": [
++        {
++          "current_key": "AIzaSyCP2ZFLv1JL7n4wKcokpeLywhghcLlr8dE"
++        }
++      ],
++      "services": {
++        "appinvite_service": {
++          "other_platform_oauth_client": [
++            {
++              "client_id": "484335769391-d49k3jqeg5b0gtluf4dgoc1mdj05hh19.apps.googleusercontent.com",
++              "client_type": 3
++            }
++          ]
++        }
++      }
++    }
++  ],
++  "configuration_version": "1"
++}
+\ No newline at end of file
