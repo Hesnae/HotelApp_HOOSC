@@ -32,7 +32,7 @@ android {
 
 dependencies {
 //    add latest firebase dependency
-    //k
+
     implementation 'com.google.firebase:firebase-core:16.0.9'
     implementation 'com.google.firebase:firebase-database:18.0.1'
     implementation 'androidx.appcompat:appcompat:1.5.1'
