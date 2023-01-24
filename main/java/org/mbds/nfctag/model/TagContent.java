@@ -1,4 +1,4 @@
-package org.mbds.nfctag.model;
+package org.mbds.nfchotel_hoosc.model;
 
 public class TagContent {
     private TagType type;

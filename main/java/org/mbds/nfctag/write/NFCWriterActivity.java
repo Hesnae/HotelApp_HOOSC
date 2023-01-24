@@ -1,4 +1,4 @@
-package org.mbds.nfctag.write;
+package org.mbds.nfchotel_hoosc.write;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -23,9 +23,9 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 
-import org.mbds.nfctag.MainActivity;
-import org.mbds.nfctag.R;
-import org.mbds.nfctag.model.TagType;
+import org.mbds.nfchotel_hoosc.MainActivity;
+import org.mbds.nfchotel_hoosc.R;
+import org.mbds.nfchotel_hoosc.model.TagType;
 
 public class NFCWriterActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package org.mbds.nfctag.read;
+package org.mbds.nfchotel_hoosc.read;
 
 import android.net.Uri;
 import android.nfc.NdefMessage;
@@ -10,11 +10,10 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.mbds.nfctag.model.TagContent;
-import org.mbds.nfctag.model.TagType;
+import org.mbds.nfchotel_hoosc.model.TagContent;
+import org.mbds.nfchotel_hoosc.model.TagType;
 
 import java.io.UnsupportedEncodingException;
-import java.net.URI;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

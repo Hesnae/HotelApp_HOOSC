@@ -1,4 +1,4 @@
-package org.mbds.nfctag.read;
+package org.mbds.nfchotel_hoosc.read;
 
 import android.app.AlertDialog;
 import android.app.PendingIntent;
@@ -19,12 +19,12 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.mbds.nfctag.R;
-import org.mbds.nfctag.model.TagContent;
-import org.mbds.nfctag.model.TagType;
-import org.mbds.nfctag.utils.Animation;
-import org.mbds.nfctag.write.NFCWriterActivity;
-import org.mbds.nfctag.write.NfcTagViewModel;
+import org.mbds.nfchotel_hoosc.R;
+import org.mbds.nfchotel_hoosc.model.TagContent;
+import org.mbds.nfchotel_hoosc.model.TagType;
+import org.mbds.nfchotel_hoosc.utils.Animation;
+import org.mbds.nfchotel_hoosc.write.NFCWriterActivity;
+import org.mbds.nfchotel_hoosc.write.NfcTagViewModel;
 
 import java.util.Arrays;
 import java.util.regex.Matcher;

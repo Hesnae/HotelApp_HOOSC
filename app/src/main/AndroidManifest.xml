@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.mbds.nfchotel_hoosc"
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.WRITE_SETTING" />
 
@@ -36,7 +37,7 @@
         </activity>
 
         <activity
-            android:name=".read.NFCReaderActivity"
+            android:name="org.mbds.nfchotel_hoosc.read.NFCReaderActivity"
             android:exported="true"
             android:label="@string/nfc_read_tag"
             android:theme="@style/AppTheme.NoActionBar">
@@ -54,7 +55,7 @@
         </activity>
 
         <activity
-            android:name=".write.NFCWriterActivity"
+            android:name="org.mbds.nfchotel_hoosc.write.NFCWriterActivity"
             android:exported="true"
             android:label="@string/nfc_write_ndef"
             android:theme="@style/AppTheme.NoActionBar">

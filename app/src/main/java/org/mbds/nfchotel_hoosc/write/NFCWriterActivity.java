@@ -1,31 +1,24 @@
-package org.mbds.nfctag.write;
+package org.mbds.nfchotel_hoosc.write;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.PendingIntent;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.nfc.NfcAdapter;
-import android.nfc.NfcManager;
 import android.nfc.Tag;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 
-import org.mbds.nfctag.MainActivity;
+
+import org.mbds.nfchotel_hoosc.model.TagType;
 import org.mbds.nfctag.R;
-import org.mbds.nfctag.model.TagType;
 
 public class NFCWriterActivity extends AppCompatActivity {
 

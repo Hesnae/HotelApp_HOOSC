@@ -1,4 +1,4 @@
-package org.mbds.nfctag.write;
+package org.mbds.nfchotel_hoosc.write;
 
 import android.nfc.FormatException;
 import android.nfc.NdefMessage;
@@ -12,10 +12,9 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.mbds.nfctag.model.TagType;
+import org.mbds.nfchotel_hoosc.model.TagType;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 
 public class NfcTagViewModel extends ViewModel {
 

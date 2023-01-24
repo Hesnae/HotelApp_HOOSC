@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package org.mbds.nfctag;
+package org.mbds.nfchotel_hoosc;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");

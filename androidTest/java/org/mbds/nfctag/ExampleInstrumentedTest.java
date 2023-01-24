@@ -1,4 +1,4 @@
-package org.mbds.nfctag;
+package org.mbds.nfchotel_hoosc;
 
 import android.content.Context;
 

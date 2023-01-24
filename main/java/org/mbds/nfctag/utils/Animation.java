@@ -1,4 +1,4 @@
-package org.mbds.nfctag.utils;
+package org.mbds.nfchotel_hoosc.utils;
 
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;

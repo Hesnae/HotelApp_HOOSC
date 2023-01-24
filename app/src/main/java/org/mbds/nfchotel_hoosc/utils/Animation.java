@@ -1,8 +1,7 @@
-package org.mbds.nfctag.utils;
+package org.mbds.nfchotel_hoosc.utils;
 
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
-import android.animation.ValueAnimator;
 import android.widget.ImageView;
 
 public class Animation {
